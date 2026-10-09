@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+*.log
+labs/.~lock.*
+playwright-report/
+test-results/
+backend/staticfiles/
+.idea/
+
+# Расширенное оформление остаётся только локально.
+/frontend/src/styles.extended.css
+
+# Документация и материалы лабораторных остаются только локально.
+/docs/
+/labs/
+/lab[0-9]*/
+*.md
+!/README.md
+*.doc
+*.docx
+*.pdf
